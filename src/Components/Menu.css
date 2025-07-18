@@ -14,3 +14,18 @@
   text-align: center;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+/* Add this to src/components/Menu.css */
+.menu-item button {
+  background-color: #61dafb; /* A nice React blue */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.menu-item button:hover {
+  background-color: #21a1c4;
+}
